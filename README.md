@@ -9,7 +9,7 @@ I was working on a project for which I needed the earlier tweets. But, I noticed
 You will require your credentials. And the further process is simple. With this script, you can successfully retrieve older tweets also. Congratulations!*
 
 ## Important:
-Don't forget to appreciate if it really helped you. Star this repository only if it proved to be useful for you. :p
+Don't forget to star this repository only if it proved to be useful for you. :p
 
 For retrieving latest tweets(within past 7 days), [check this](https://github.com/AyushiiSaxena/Tweet-retrieval-for-Sentiment-Analysis)
 
