@@ -3,8 +3,7 @@ This is a repository which contains a script in Python to retrieve the older twe
 
 ## Description: 
 
-**snscrape is a scraper for social networking services (SNS). 
-Problem**: I was working on a project for which I needed the earlier tweets. But, I noticed that Twitter official API does not allow its normal developers to retrieve tweets of older than a week. There are some pre-built tools for the same but mostly,they are paid ones. I searched for some alternative to get the tweets and I luckily found them but, after trying a lot to troubleshoot the errors, I realised that even the most popular ones are now outdated just after the latest update release of Twitter in September,2020 where it removed its '/i/search/timeline' endpoint. It made scraping the tweets from advanced search window just impossible. I observed that scholars, developers and researchers are facing lot of troubles due to this problem. So, I came up with a solution.
+**Problem**: I was working on a project for which I needed the earlier tweets. But, I noticed that Twitter official API does not allow its normal developers to retrieve tweets of older than a week. There are some pre-built tools for the same but mostly,they are paid ones. I searched for some alternative to get the tweets and I luckily found them but, after trying a lot to troubleshoot the errors, I realised that even the most popular ones are now outdated just after the latest update release of Twitter in September,2020 where it removed its '/i/search/timeline' endpoint. It made scraping the tweets from advanced search window just impossible. I observed that scholars, developers and researchers are facing lot of troubles due to this problem. So, I came up with a solution.
 
 **Solution**: To get the historical tweets, we would have to manage to use the free APIs effectively that are already available to us.  I did some more research and finally ended up with a working solution. Here, I will be sharing it with you all so that all of you can get the benefits.
 
@@ -29,7 +28,7 @@ snscrape twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > scrap
 ```
 for txt file:
 ```
-snscrape --jsonl twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > sherlock_tweets.json
+snscrape --jsonl twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > scraped_tweets1.json
 ```
 Now, you've got a file (json or txt) which contains the URL of the same tweets that you require.
 
