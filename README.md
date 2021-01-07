@@ -39,7 +39,7 @@ Just Clone this repository and run this jupyter notebook on your system. Don't f
 
 There is a limitation on the number of tweets you can scrape. [It's 100,000 tweets per day](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/timelines/faq). 
 
- **Congratulations!**
+ **Congratulations! You're done.**
 
     
     
