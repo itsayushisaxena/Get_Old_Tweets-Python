@@ -26,7 +26,7 @@ For txt file:
 ```
 snscrape twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > scraped_tweets.txt
 ```
-for txt file:
+for json file:
 ```
 snscrape --jsonl twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > scraped_tweets1.json
 ```
